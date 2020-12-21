@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic&family=Poppins&display=swap');
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+#navbar{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+
+#navbar li{
+    margin: 20px;
+    list-style: none;
+    
+}
+
+#navbar a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(252, 191, 25);
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    color:skyblue;
+    font-family: cursive;
+}
+
+h2{
+    text-align: center;
+    font-size: 40px;
+    color: black;
+    font-family: "poppins";
+}
+
+@media (max-width: 599px){
+    h1{
+        font-size: 20px;
+    }
+}
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container div{
+    width: 380px;
+    margin: 10px;
+    padding: 20px;
+
+}
+
+@media (max-width: 599px){
+    #container div{
+        width: 280px;
+        margin: 5px;
+        padding: 10px;
+    }
+}
+
+#aboutsection{
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin: 60px;
+    justify-content: center;
+    height: auto;
+    line-height: 1.5em;
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    
+}
+
